@@ -1,0 +1,23 @@
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.dropdown-label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.select {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.disabled-select {
+  background-color: #f0f0f0;
+  color: #888;
+  cursor: not-allowed;
+}
