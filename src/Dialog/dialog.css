@@ -1,0 +1,57 @@
+.dialog-backdrop {
+  padding: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-wrapper {
+  background: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.header-dialog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dialog-close-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dialog-close-btn:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.content-dialog {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Optional sizing */
+.size-xs .dialog-wrapper {
+  max-width: 300px;
+}
+.size-sm .dialog-wrapper {
+  max-width: 500px;
+}
+.size-md .dialog-wrapper {
+  max-width: 700px;
+}
+.size-lg .dialog-wrapper {
+  max-width: 900px;
+}
