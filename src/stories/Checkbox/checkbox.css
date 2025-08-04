@@ -1,0 +1,24 @@
+/* Base styles */
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  accent-color: #1e40af; /* Tailwind blue-800 */
+  cursor: pointer;
+}
+
+/* Checkbox label */
+label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+/* Disabled checkbox */
+.disabled-checkbox {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
