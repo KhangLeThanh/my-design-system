@@ -1,0 +1,38 @@
+.tab-list {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.tab-button,
+.tab-link {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #555;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.tab-button:hover,
+.tab-link:hover,
+.tab-button:focus,
+.tab-link:focus {
+  color: #000;
+  outline: none;
+}
+
+.tab-button.active,
+.tab-link.active {
+  color: #000;
+  font-weight: bold;
+  border-bottom-color: #007bff;
+}
+
+.tab-panel {
+  padding: 1rem 0;
+}
