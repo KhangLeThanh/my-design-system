@@ -1,0 +1,79 @@
+/* Base slider wrapper */
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: sans-serif;
+}
+
+/* The range input */
+input[type="range"].slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 6px;
+  background: #ddd;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Track hover effect */
+input[type="range"].slider:hover {
+  background: #ccc;
+}
+
+/* Track disabled */
+input[type="range"].disabled-slider {
+  background: #eee;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Webkit thumb (Chrome, Safari, Edge) */
+input[type="range"].slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Thumb hover & focus */
+input[type="range"].slider::-webkit-slider-thumb:hover,
+input[type="range"].slider:focus::-webkit-slider-thumb {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Firefox thumb */
+input[type="range"].slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type="range"].slider::-moz-range-thumb:hover,
+input[type="range"].slider:focus::-moz-range-thumb {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Slider title */
+.slider-title {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Disabled state */
+.disabled-slider::-webkit-slider-thumb,
+.disabled-slider::-moz-range-thumb {
+  background: #aaa;
+  cursor: not-allowed;
+}

@@ -16,8 +16,8 @@
   position: absolute;
 }
 
-/* The slider part */
-.slider {
+/* The toggle part */
+.toggle {
   position: relative;
   width: 40px;
   height: 20px;
@@ -27,8 +27,8 @@
   transition: background-color 0.3s;
 }
 
-/* The knob inside the slider */
-.slider::before {
+/* The knob inside the toggle */
+.toggle::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -41,21 +41,21 @@
 }
 
 /* Checked state */
-input:checked + .slider {
+input:checked + .toggle {
   background-color: #4caf50;
 }
 
-input:checked + .slider::before {
+input:checked + .toggle::before {
   transform: translateX(20px);
 }
 
 /* Disabled state */
-input:disabled + .slider {
+input:disabled + .toggle {
   background-color: #e0e0e0;
   cursor: default;
 }
 
-input:disabled + .slider::before {
+input:disabled + .toggle::before {
   background-color: #bdbdbd;
 }
 

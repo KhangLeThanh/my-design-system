@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import Switch from "./Switch";
 
@@ -16,6 +17,12 @@ const meta: Meta<typeof Switch> = {
 export default meta;
 type Story = StoryObj<typeof Switch>;
 export const Primary: Story = {
+  render: (args) => {
+    const [toggle, setToggle] = useState<boolean>(false);
+    return (
+      <Switch {...args} checked={toggle} onChange={() => setToggle(!toggle)} />
+    );
+  },
   args: {
     disabled: false,
   },

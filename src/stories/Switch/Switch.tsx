@@ -32,7 +32,7 @@ const Switch: React.FC<SwitchProps> = ({
           className={`input ${disabled ? "disabled-switch" : "switch"}`}
           {...props}
         />
-        <span className="slider"></span>
+        <span className="toggle"></span>
 
         <span className="switch-title">{title}</span>
       </label>
