@@ -14,7 +14,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
   disabled,
   ...props
 }) => {
-  const id = `checkbox-${values.toString().replace(/\s+/g, "-").toLowerCase()}`;
+  const id = `checkbox-${title.toString().replace(/\s+/g, "-").toLowerCase()}`;
 
   return (
     <>
