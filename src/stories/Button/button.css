@@ -13,12 +13,12 @@
 }
 .btn:focus {
   outline: 2px solid transparent;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.6); /* blue focus ring */
+  box-shadow: 0 0 0 3px rgba(72, 169, 26, 0.6);
 }
 
 /* Primary button */
 .btn-primary {
-  background-color: #357a14;
+  background-color: var(--color-primary);
   color: white;
 }
 .btn-primary:hover {

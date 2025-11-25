@@ -3,7 +3,7 @@
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  accent-color: #357a14;
+  accent-color: var(--color-primary);
   cursor: pointer;
 }
 

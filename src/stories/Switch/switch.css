@@ -42,7 +42,7 @@
 
 /* Checked state */
 input:checked + .toggle {
-  background-color: #357a14;
+  background-color: var(--color-primary);
 }
 
 input:checked + .toggle::before {

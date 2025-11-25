@@ -30,7 +30,7 @@
 .tab-link.active {
   color: #000;
   font-weight: bold;
-  border-bottom-color: #357a14;
+  border-bottom-color: var(--color-primary);
 }
 
 .tab-panel {

@@ -37,7 +37,7 @@
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
-  background: #357a14;
+  background: var(--color-primary);
   border-radius: 50%;
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -55,7 +55,7 @@
 .slider-input::-moz-range-thumb {
   height: 16px;
   width: 16px;
-  background: #357a14;
+  background: var(--color-primary);
   border-radius: 50%;
   cursor: pointer;
   transition: transform 0.2s ease;
