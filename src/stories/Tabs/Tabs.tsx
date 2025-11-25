@@ -12,7 +12,7 @@ export const Tabs = ({ items, defaultIndex = 0 }: TabsProps) => {
 
   return (
     <div>
-      <div role="tablist" arial-label="Tab navigation" className="tab-list">
+      <div role="tablist" aria-label="Tab navigation" className="tab-list">
         {items.map((item, index) =>
           item.urlLink ? (
             <Link
@@ -48,7 +48,7 @@ export const Tabs = ({ items, defaultIndex = 0 }: TabsProps) => {
               key={item.label}
               id={`tab-${index}`}
               role="tabpanel"
-              aria-labelledby={`tab-${index}`}
+              aria-labelledby={`tabpanel-${index}`}
               hidden={activeIndex !== index}
               className="tab-panel"
             >
