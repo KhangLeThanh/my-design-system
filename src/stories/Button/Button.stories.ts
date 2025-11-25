@@ -37,6 +37,7 @@ export const Disabled: Story = {
   args: {
     variant: "primary",
     children: "Disabled Button",
+    disabled: true,
   },
 };
 

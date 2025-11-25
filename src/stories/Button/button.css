@@ -29,6 +29,7 @@
   background-color: #5e5e5e;
   color: #eeee;
   cursor: default;
+  pointer-events: none;
 }
 /* Secondary button */
 .btn-secondary {
