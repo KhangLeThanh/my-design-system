@@ -37,7 +37,7 @@ input[type="range"].slider::-webkit-slider-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #007bff;
+  background: var(--color-primary);
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
@@ -45,7 +45,7 @@ input[type="range"].slider::-webkit-slider-thumb {
 /* Thumb hover & focus */
 input[type="range"].slider::-webkit-slider-thumb:hover,
 input[type="range"].slider:focus::-webkit-slider-thumb {
-  background: #0056b3;
+  background: var(--color-primary);
   transform: scale(1.1);
 }
 
@@ -54,14 +54,14 @@ input[type="range"].slider::-moz-range-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #007bff;
+  background: var(--color-primary);
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 input[type="range"].slider::-moz-range-thumb:hover,
 input[type="range"].slider:focus::-moz-range-thumb {
-  background: #0056b3;
+  background: var(--color-primary);
   transform: scale(1.1);
 }
 

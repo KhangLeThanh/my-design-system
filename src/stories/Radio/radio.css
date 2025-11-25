@@ -2,7 +2,7 @@
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  accent-color: #1e40af;
+  accent-color: var(--color-primary);
   cursor: pointer;
   border-radius: 50%;
 }

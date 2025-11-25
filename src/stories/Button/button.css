@@ -18,11 +18,11 @@
 
 /* Primary button */
 .btn-primary {
-  background-color: #2563eb; /* blue-600 */
+  background-color: #357a14;
   color: white;
 }
 .btn-primary:hover {
-  background-color: #1d4ed8; /* blue-700 */
+  background-color: #48a91a;
 }
 .btn.disabled-btn,
 .btn.disabled-btn:hover {
@@ -32,11 +32,11 @@
 }
 /* Secondary button */
 .btn-secondary {
-  background-color: #e5e7eb; /* gray-200 */
-  color: #111827; /* gray-900 */
+  background-color: #e5e7eb;
+  color: #111827;
 }
 .btn-secondary:hover {
-  background-color: #d1d5db; /* gray-300 */
+  background-color: #d1d5db;
 }
 .custom-button {
   font-style: italic;
